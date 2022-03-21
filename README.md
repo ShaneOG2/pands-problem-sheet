@@ -1,6 +1,6 @@
 ![Heading image](img/Shane_O'Gorman's_pands-problem-sheet.png)
 
-## Overview
+## Overview ##
 
 This respository contains my work for the 8 Pand-Problems given for Programming and Scripting. I have outlined below ... 
 ---
