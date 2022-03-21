@@ -7,7 +7,13 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 
 ### Problem 1 - Body Mass Index (BMI) ###
 ---
-efwfwe
+**Description** - Calculate the Body Mass Index (BMI) of a person given their weight (kg) and height (cm). 
+
+**How the program works** - 
+1. The program begins by asking the user to input the weight (kg). 
+2. Then to input the person's height (cm). 
+3. Both inputs are stored as int variables - ***w_kg*** and ***h_cm*** respectively. 
+4. The formala for BMI is: weight (kg) / [height (m)]^2
 
 ### Problem 2 - Second String ###
 ---
