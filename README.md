@@ -2,8 +2,16 @@
 
 ## Overview
 
-<p> This respository contains my work for the 8 Pand-Problems given for Programming and Scripting. I have outlined below ... </p>
+This respository contains my work for the 8 Pand-Problems given for Programming and Scripting. I have outlined below ... 
 
-<h3> Problem 1 - Body Mass Index (BMI)</h3> 
+### Problem 1 - Body Mass Index (BMI) ###
 
-<p>efwfwe</p>
+efwfwe 
+
+### Problem 2 - Second String ###
+
+efwfwe 
+
+### Problem 3 - Collatz Conjecture ###
+
+efwfwe 
