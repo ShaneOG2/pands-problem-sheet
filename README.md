@@ -14,7 +14,7 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 2. Then to input the person's height (cm). 
 3. Both inputs are stored as int variables - ***w_kg*** and ***h_cm*** respectively. 
 4. The formala for BMI is: 
-<p>weight (kg) / (height (m))<sup>2</sup></p>
+<p>\frac {weight (kg) / (height (m))<sup>2}</sup></p>
 
 ### Problem 2 - Second String ###
 ---
