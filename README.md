@@ -20,7 +20,7 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 
 **References** - 
 1. [BMI Formula](https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_1.html#:~:text=With%20the%20metric%20system%2C%20the,by%2010%2C000%2C%20can%20be%20used)
-2.[Round Function](https://www.w3schools.com/python/ref_func_round.asp)
+2. [Round Function](https://www.w3schools.com/python/ref_func_round.asp)
 
 ### Problem 2 - Second String ###
 ---
