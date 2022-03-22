@@ -9,7 +9,7 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 **Description** - Calculate the Body Mass Index (BMI) of a person given their weight (kg) and height (cm). 
 
 **How the program works** - 
-1. The program begins by asking the user to input the weight (kg) and then height. 
+1. The program begins by asking the user to input the weight (kg) and then height (cm). 
 2. Both inputs are stored as int variables, ***w_kg*** and ***h_cm*** respectively. 
 3. The formala for BMI<sup>1</sup> is: **weight (kg) / (height (m))<sup>2</sup>**. This was calculated and stored as ***bmi***. 
 4. Given the inputed height was in cm, ***h_cm*** was divided by 100 in the calculation of ***bmi*** to convert to m.
@@ -25,6 +25,7 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 4. [If/else statements](https://www.w3schools.com/python/python_conditions.asp)
 5. [Comaparison operators](https://www.w3schools.com/python/python_operators.asp)
 6. [Format](https://www.w3schools.com/python/ref_string_format.asp)
+7. <a href="https://www.w3schools.com/python/ref_string_format.asp" target="_blank">Format</a>
 
 ### Problem 2 - Second String ###
 ---
