@@ -19,13 +19,12 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 8. Finally, The BMI was printed<sup>6</sup> out along with the result indicator (i.e. underweight, normal, etc.)
 
 **References** - 
-1. [BMI Formula](https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_1.html#:~:text=With%20the%20metric%20system%2C%20the,by%2010%2C000%2C%20can%20be%20used)
-2. [Round Function](https://www.w3schools.com/python/ref_func_round.asp)
-3. [BMI indicator](https://www.everydayhealth.com/diet-nutrition/bmi/bmi-adults-yours-healthy-not-how-can-you-lose-weight/)
-4. [If/else statements](https://www.w3schools.com/python/python_conditions.asp)
-5. [Comaparison operators](https://www.w3schools.com/python/python_operators.asp)
-6. [Format](https://www.w3schools.com/python/ref_string_format.asp)
-7. <a href="https://www.w3schools.com/python/ref_string_format.asp" target="_blank">Format</a>
+1. <a href="https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_1.html#:~:text=With%20the%20metric%20system%2C%20the,by%2010%2C000%2C%20can%20be%20used" target="_blank">BMI Formula</a>
+2. <a href="https://www.w3schools.com/python/ref_func_round.asp" target="_blank">Round Function</a>
+3. <a href="https://www.everydayhealth.com/diet-nutrition/bmi/bmi-adults-yours-healthy-not-how-can-you-lose-weight/" target="_blank">BMI Indicator</a>
+4. <a href="https://www.w3schools.com/python/python_conditions.asp" target="_blank">If/else statements</a>
+5. <a href="https://www.w3schools.com/python/python_operators.asp" target="_blank">Comaparison operators</a>
+6. <a href="https://www.w3schools.com/python/ref_string_format.asp" target="_blank">Format</a>
 
 ### Problem 2 - Second String ###
 ---
