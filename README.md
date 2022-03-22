@@ -23,12 +23,24 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 2. <a href="https://www.w3schools.com/python/ref_func_round.asp" target="_blank">Round Function</a>
 3. <a href="https://www.everydayhealth.com/diet-nutrition/bmi/bmi-adults-yours-healthy-not-how-can-you-lose-weight/" target="_blank">BMI Indicator</a>
 4. <a href="https://www.w3schools.com/python/python_conditions.asp" target="_blank">If/else statements</a>
-5. <a href="https://www.w3schools.com/python/python_operators.asp" target="_blank">Comaparison operators</a>
+5. <a href="https://www.w3schools.com/python/python_operators.asp" target="_blank">Comparison operators</a>
 6. <a href="https://www.w3schools.com/python/ref_string_format.asp" target="_blank">Format</a>
 
 ### Problem 2 - Second String ###
 ---
-efwfwe 
+**Description** - Reads in a sentence from the user and outputs every second letter of the inputted string in reverse order. 
+
+**How the program works** - 
+1. The program begins by asking the user to input a sentence.
+2. A new variable is created where the ouput string will be stored ***reverseStrSecondChar***. 
+3. Firstly we need to reverse the ***inputSentence***. This is done using ***inputSentence[::-1]*** where -1 starts at the last element of the string and moves backwards through the string, outputing the reverse strings<sup>1</sup>.
+4. As we want to get every second element, -1 is changes to -2<sup>2,3</sup>. 
+5. Finally, every second letter of the inputted string in reverse order is printed out as a string. 
+
+**References** - 
+1. <a href="https://www.w3schools.com/python/python_howto_reverse_string.asp" target="_blank">Reverse String</a>
+2. <a href="https://www.youtube.com/watch?v=w5XXa7Rw-R8&ab_channel=ProgSkill" target="_blank">Selecting every nth character from a string</a>
+3. <a href="https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3" target="_blank">Slicing strings</a>
 
 ### Problem 3 - Collatz Conjecture ###
 ---

@@ -6,6 +6,7 @@ inputSentence = input("Please enter a sentence: ")
 # Starts at the left side of the sentence and returns every second letter
 reverseStrSecondChar = inputSentence[::-2]
 
+# Prints result
 print(reverseStrSecondChar)
 
 
