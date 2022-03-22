@@ -44,31 +44,30 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 
 ### Problem 3 - Collatz Conjecture ###
 ---
-**Description** - ***"The Collatz conjecture in mathematics asks whether repeating two simple arithmetic operations will eventually transform every positive integer into one."***
+**Description** - ***"The Collatz conjecture in mathematics asks whether repeating two simple arithmetic operations will eventually transform every positive integer into one."***<sup>1</sup>
 
 This program asks the user to input any positive integer and outputs the successive values of the following calculation.
 
 At each step calculate the next value by taking the current value and: 
 * If it is even, divide it by two, 
-* But if it is odd, multiply it by three and add one.
+* But if it is odd, multiply it by three and add one.<sup>2</sup>
 
 **How the program works** - 
 1. The program begins by asking the user to input a positve integer.
 2. Then a list is created and the inputed postive integer is added to the list.
-3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where num is greater than 1. 
+3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where num is greater than 1.<sup>3</sup>
 4. Using an if/else statement we check whether num is even or odd. 
 5. If even, num is set to num divided by 2. If even, num is set to 3 multiplied by num plus 1. 
-6. The result of the calculation is appended to the list. 
+6. The result of the calculation is appended to the list.<sup>4</sup>
 7. Due to the while loop steps 4-6 are repeated until num is equal to 1. 
-8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen. 
+8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen.<sup>5</sup>
 
 **References** - 
-1. <a href="# Wikipedia - Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
-" target="_blank">Wikipedia - Collatz conjecture</a>
+1. <a href="# Wikipedia - Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Wikipedia - Collatz conjecture</a>
 2. <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">Understanding problem</a>
-3. <a href="# Appending elements to list: https://www.w3schools.com/python/ref_list_append.asp
-" target="_blank">Appending elements to list</a>
-4. <a href="https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically" target="_blank">Print elements of list on one line</a>
+3. <a href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">While loops</a>
+4. <a href="# Appending elements to list: https://www.w3schools.com/python/ref_list_append.asp" target="_blank">Appending elements to list</a>
+5. <a href="https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically" target="_blank">Print elements of list on one line</a>
 
 ### README References ###
 Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr
