@@ -9,9 +9,9 @@ reverseStrSecondChar = inputSentence[::-2]
 # Prints result
 print(reverseStrSecondChar)
 
-
-# Reverse ref : https://www.w3schools.com/python/python_howto_reverse_string.asp
-# Second letter ref : https://www.youtube.com/watch?v=w5XXa7Rw-R8&ab_channel=ProgSkill
-# Slicing : https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3
+# References
+# Reverse string: https://www.w3schools.com/python/python_howto_reverse_string.asp
+# Second letter: https://www.youtube.com/watch?v=w5XXa7Rw-R8&ab_channel=ProgSkill
+# Slicing: https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3
 
 

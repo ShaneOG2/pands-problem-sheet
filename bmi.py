@@ -23,10 +23,10 @@ else:
 # Prints the BMI
 print("The BMI is (kg/m2) {}\nThis indicates the person is {}".format(bmi, result))
 
-#Reference: 
-#BMI formula https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_1.html#:~:text=With%20the%20metric%20system%2C%20the,by%2010%2C000%2C%20can%20be%20used.
-#round function https://www.w3schools.com/python/ref_func_round.asp
-#BMI indicator https://www.everydayhealth.com/diet-nutrition/bmi/bmi-adults-yours-healthy-not-how-can-you-lose-weight/
-#if/else https://www.w3schools.com/python/python_conditions.asp
-#Comaparison operators https://www.w3schools.com/python/python_operators.asp
-#Format https://www.w3schools.com/python/ref_string_format.asp
+#References: 
+#BMI formula: https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_1.html#:~:text=With%20the%20metric%20system%2C%20the,by%2010%2C000%2C%20can%20be%20used.
+#Round function: https://www.w3schools.com/python/ref_func_round.asp
+#BMI indicator: https://www.everydayhealth.com/diet-nutrition/bmi/bmi-adults-yours-healthy-not-how-can-you-lose-weight/
+#If/else: https://www.w3schools.com/python/python_conditions.asp
+#Comaparison operators: https://www.w3schools.com/python/python_operators.asp
+#Format: https://www.w3schools.com/python/ref_string_format.asp
