@@ -63,10 +63,10 @@ At each step calculate the next value by taking the current value and:
 8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen.<sup>5</sup>
 
 **References** - 
-1. <a href="# Wikipedia - Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Wikipedia - Collatz conjecture</a>
+1. <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Wikipedia - Collatz conjecture</a>
 2. <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">Understanding problem</a>
 3. <a href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">While loops</a>
-4. <a href="# Appending elements to list: https://www.w3schools.com/python/ref_list_append.asp" target="_blank">Appending elements to list</a>
+4. <a href="https://www.w3schools.com/python/ref_list_append.asp" target="_blank">Appending elements to list</a>
 5. <a href="https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically" target="_blank">Print elements of list on one line</a>
 
 ### README References ###
