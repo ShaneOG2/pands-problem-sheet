@@ -4,8 +4,11 @@
 # but if it is odd, multiply it by three and add one.
 # Author: Shane O'Gorman
 
-num = int(input("Please enter a positive integer: ")) # This allows all integers. 
-# Andrew mentioned error statements so wait til he discusses and then ammend
+num = int(input("Please enter a positive integer: "))# Asks user to input positive int, if < 1 an error is thrown. 
+if num < 1:
+    raise ValueError("Number must be > 0")
+
+
 arr = [num] # Creates list and adds first inputed number to it 
 
 while num > 1: # Keeps running while calculations are greater than 1 and until we get to 1 
@@ -17,7 +20,7 @@ while num > 1: # Keeps running while calculations are greater than 1 and until w
 
 print("The Collatz sequence of {} is: ".format(arr[0]))
 
-for num in arr:
+for num in arr: # Prints sequence out
     print(num, end = " ")
 
 # References:

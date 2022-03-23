@@ -53,13 +53,13 @@ At each step calculate the next value by taking the current value and:
 * But if it is odd, multiply it by three and add one.<sup>2</sup>
 
 **How the program works** - 
-1. The program begins by asking the user to input a positve integer.
+1. The program begins by asking the user to input a positve integer. If the user inputs an integer less than 0 an error is thrown and the programs stops. 
 2. Then a list is created and the inputed postive integer is added to the list.
-3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where num is greater than 1.<sup>3</sup>
-4. Using an if/else statement we check whether num is even or odd. 
-5. If even, num is set to num divided by 2. If even, num is set to 3 multiplied by num plus 1. 
+3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where ***num*** is greater than 1.<sup>3</sup>
+4. Using an if/else statement we check whether ***num*** is even or odd. 
+5. If even, ***num*** is set to ***num*** divided by 2. If even, ***num*** is set to 3 multiplied by ***num*** plus 1. 
 6. The result of the calculation is appended to the list.<sup>4</sup>
-7. Due to the while loop steps 4-6 are repeated until num is equal to 1. 
+7. Due to the while loop steps 4-6 are repeated until ***num*** is equal to 1. 
 8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen.<sup>5</sup>
 
 **References** - 
