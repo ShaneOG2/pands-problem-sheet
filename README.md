@@ -53,21 +53,38 @@ At each step calculate the next value by taking the current value and:
 * But if it is odd, multiply it by three and add one.<sup>2</sup>
 
 **How the program works** - 
-1. The program begins by asking the user to input a positve integer. If the user inputs an integer less than 0 an error is thrown and the programs stops. 
+1. The program begins by asking the user to input a positve integer. If the user inputs an integer less than 0 an error is thrown and the programs stops.<sup>3</sup>
 2. Then a list is created and the inputed postive integer is added to the list.
-3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where ***num*** is greater than 1.<sup>3</sup>
+3. Given the Collatz conjecture, we assume by repeating the two arithmetic operations (for even and odd numbers), we will eventually transform every positive integer to one. Therefore, we use a while loop where ***num*** is greater than 1.<sup>4</sup>
 4. Using an if/else statement we check whether ***num*** is even or odd. 
 5. If even, ***num*** is set to ***num*** divided by 2. If even, ***num*** is set to 3 multiplied by ***num*** plus 1. 
-6. The result of the calculation is appended to the list.<sup>4</sup>
+6. The result of the calculation is appended to the list.<sup>5</sup>
 7. Due to the while loop steps 4-6 are repeated until ***num*** is equal to 1. 
-8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen.<sup>5</sup>
+8. Finally, the list of the Collatz sequenece of the inputed number is printed to the screen.<sup>6</sup>
 
 **References** - 
 1. <a href="https://en.wikipedia.org/wiki/Collatz_conjecture" target="_blank">Wikipedia - Collatz conjecture</a>
 2. <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">Understanding problem</a>
-3. <a href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">While loops</a>
-4. <a href="https://www.w3schools.com/python/ref_list_append.asp" target="_blank">Appending elements to list</a>
-5. <a href="https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically" target="_blank">Print elements of list on one line</a>
+3. <a href="https://web.microsoftstream.com/video/625784d5-114f-4f8b-a929-8d46a63297ad" target="_blank">Exceptions and errors</a>
+4. <a href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">While loops</a>
+5. <a href="https://www.w3schools.com/python/ref_list_append.asp" target="_blank">Appending elements to list</a>
+6. <a href="https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically" target="_blank">Print elements of list on one line</a>
+
+### Problem 4 - Weekday ###
+---
+**Description** - The program outputs whether today is a weekday or not.  
+
+**How the program works** - 
+1. The program begins by setting the variable ***today*** to the day of the week it is. ***datetime.today().weekday()*** returns -6 i.e. Monday-Sunday where 1 is Monday, 2 is Tuesday etc.<sup>1/2</sup>
+2. I then created a tuple ***daysOfWeek*** with the days of week beginning with Monday and ending in Sunday. 
+3. Using the tuple ***daysOfWeek*** and varible ***today***, the program could then print what day of the week it is. <sup>3</sup>
+4. An if/else statement was used to determine if ***today*** was a weekday or a weekend.  
+
+**References** - 
+1. <a href="https://www.delftstack.com/howto/python/python-datetime-day-of-week/#:~:text=of%20the%20day.-,Use%20the%20weekday()%20Method%20to%20Get%20the%20Name%20of,0%20and%20Sunday%20is%206." target="_blank">Finding what day of the week it is today</a>
+2. <a href="https://www.w3schools.com/python/python_datetime.asp" target="_blank">Datetime module</a>
+3. <a href="https://www.w3schools.com/python/python_tuples.asp#:~:text=%2C%20%22cherry%22" target="_blank">Tuples</a>
+
 
 ### README References ###
 Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr

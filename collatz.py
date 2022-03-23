@@ -26,5 +26,6 @@ for num in arr: # Prints sequence out
 # References:
 # Wikipedia - Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
 # Understanding problem: https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium
+# Exceptions and errors: https://web.microsoftstream.com/video/625784d5-114f-4f8b-a929-8d46a63297ad
 # Appending elements to list: https://www.w3schools.com/python/ref_list_append.asp
 # Print elements of list on one line: https://stackoverflow.com/questions/3249524/print-in-one-line-dynamically
