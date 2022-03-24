@@ -22,8 +22,8 @@ sqrtOfNum = sqrt(inputNum)
 print("The square root of {} is approx. {}.".format(inputNum,round(sqrtOfNum,1)))
 
 # References
-# https://en.wikipedia.org/wiki/Newton%27s_method
-# https://www.youtube.com/watch?v=tUFzOLDuvaE&ab_channel=0612TVw%2FNERDfirst
+# Newtons Method: https://en.wikipedia.org/wiki/Newton%27s_method
+# How to program: https://www.youtube.com/watch?v=tUFzOLDuvaE&ab_channel=0612TVw%2FNERDfirst
 # General Formula = X(n+1) = X(n) - f(X(n))/f'(X(n))
 # Equaltions for square roots - f(X) = x^2 - num (num = sqrt of the number we want to get)
 # f'(x) = 2x

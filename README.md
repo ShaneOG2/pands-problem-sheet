@@ -77,7 +77,7 @@ At each step calculate the next value by taking the current value and:
 **How the program works** - 
 1. The program begins by setting the variable ***today*** to the day of the week it is. ***datetime.today().weekday()*** returns -6 i.e. Monday-Sunday where 1 is Monday, 2 is Tuesday etc.<sup>1/2</sup>
 2. I then created a tuple ***daysOfWeek*** with the days of week beginning with Monday and ending in Sunday. 
-3. Using the tuple ***daysOfWeek*** and varible ***today***, the program could then print what day of the week it is. <sup>3</sup>
+3. Using the tuple ***daysOfWeek*** and varible ***today***, the program could then print what day of the week it is.<sup>3</sup>
 4. An if/else statement was used to determine if ***today*** was a weekday or a weekend.  
 
 **References** - 
@@ -89,7 +89,7 @@ At each step calculate the next value by taking the current value and:
 ---
 **Description** - The program takes a positive floating-point number as input and outputs an approximation of its square root. 
 
-This was done using Newton's Method. 
+This was done using Newton's Method.<sup>1</sup>
 
 General Formula: <br/>
 **x<sub>n+1</sub> = x<sub>n</sub> - (f(x<sub>n</sub>)/f'(x<sub>n</sub>))**
@@ -99,10 +99,20 @@ Equation for Square Roots: <br/>
 **f'(x) = 2x**
 
 Subbing into the gerneral formula we get: <br/>
-**x<sub>n+1</sub> = x<sub>n</sub> - ((x<sub>n</sub><sup>2</sup> - num)/(2x<sub>n</sub>))
+**x<sub>n+1</sub> = x<sub>n</sub> - ((x<sub>n</sub><sup>2</sup> - num)/(2x<sub>n</sub>))**
 
-**How the program works** - 
-1. The progra
+**How the program works<sup>2</sup>** - 
+1. The program begins with the function ***sqrt()*** with parameters ***num*** and ***error*** set to 0.00001.
+2. The first ***guess*** is set to the number we want the square root of. 
+3. ***Diff*** is set to a large number. 
+4. A while loop is repeated while ***diff*** is greater than ***error***. 
+5. ***newGuess*** is calculated by applying Newton's Method. 
+6. ***Diff*** is reset to the absolute differece of our first guess and new guess. 
+7. ***guess*** is set to ***neGuess*** and the loop is repeated until we achieve a square root that is less than the ***error*** we specified. 
+
+**References** - 
+1. <a href="https://en.wikipedia.org/wiki/Newton%27s_method" target="_blank">Newton's Method</a>
+1. <a href="https://www.youtube.com/watch?v=tUFzOLDuvaE&ab_channel=0612TVw%2FNERDfirst" target="_blank">How to calculate square roots using Newton's Method</a>
 
 ### README References ###
 Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr
