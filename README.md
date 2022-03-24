@@ -85,6 +85,24 @@ At each step calculate the next value by taking the current value and:
 2. <a href="https://www.w3schools.com/python/python_datetime.asp" target="_blank">Datetime module</a>
 3. <a href="https://www.w3schools.com/python/python_tuples.asp#:~:text=%2C%20%22cherry%22" target="_blank">Tuples</a>
 
+### Problem 5 - Square Root ###
+---
+**Description** - The program takes a positive floating-point number as input and outputs an approximation of its square root. 
+
+This was done using Newton's Method. 
+
+General Formula: 
+**x<sub>n+1</sub> = x<sub>n</sub> - (f(x<sub>n</sub>)/f'(x<sub>n</sub>))
+
+Equation for Square Roots: 
+f(x<sub>x</sub>) = x<sup>2</sup> - num 
+f'(x<sub>x</sub>) = 2x
+
+Subbing into the gerneral formula we get: 
+**x<sub>n+1</sub> = x<sub>n</sub> - (x<sub>n</sub><sup>2</sup> - num/2x<sub>n</sub>)
+
+**How the program works** - 
+1. The progra
 
 ### README References ###
 Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr
