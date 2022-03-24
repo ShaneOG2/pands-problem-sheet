@@ -91,15 +91,15 @@ At each step calculate the next value by taking the current value and:
 
 This was done using Newton's Method. 
 
-General Formula: 
-**x<sub>n+1</sub> = x<sub>n</sub> - (f(x<sub>n</sub>)/f'(x<sub>n</sub>))
+General Formula: <br/>
+**x<sub>n+1</sub> = x<sub>n</sub> - (f(x<sub>n</sub>)/f'(x<sub>n</sub>))**
 
-Equation for Square Roots: 
-f(x<sub>x</sub>) = x<sup>2</sup> - num 
-f'(x<sub>x</sub>) = 2x
+Equation for Square Roots: <br/>
+**f(x) = x<sup>2</sup> - num** <br >
+**f'(x) = 2x**
 
-Subbing into the gerneral formula we get: 
-**x<sub>n+1</sub> = x<sub>n</sub> - (x<sub>n</sub><sup>2</sup> - num/2x<sub>n</sub>)
+Subbing into the gerneral formula we get: <br/>
+**x<sub>n+1</sub> = x<sub>n</sub> - ((x<sub>n</sub><sup>2</sup> - num)/(2x<sub>n</sub>))
 
 **How the program works** - 
 1. The progra
