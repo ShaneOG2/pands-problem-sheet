@@ -112,7 +112,48 @@ Subbing into the gerneral formula we get: <br/>
 
 **References** - 
 1. <a href="https://en.wikipedia.org/wiki/Newton%27s_method" target="_blank">Newton's Method</a>
-1. <a href="https://www.youtube.com/watch?v=tUFzOLDuvaE&ab_channel=0612TVw%2FNERDfirst" target="_blank">How to calculate square roots using Newton's Method</a>
+2. <a href="https://www.youtube.com/watch?v=tUFzOLDuvaE&ab_channel=0612TVw%2FNERDfirst" target="_blank">How to calculate square roots using Newton's Method</a>
+
+### Problem 6 - Number of e's ###
+---
+**Description** - The program reads in a text file and outputs the number of e's it contains. The program takes the filename from an argument on the command line. 
+
+**How the program works** - 
+1. Using the sys module we can use argv to take in the filename we want from the command line<sup>1</sup>. 
+2. ***arg[0]*** is the path of my program - .\es.py i.e. the first argument I pass in the command line. 
+3. ***arg[1]*** is the second argument I pass, in this case moby-dick.txt which I set to filename. 
+4. We then need to read in the file<sup>2</sup>. 
+5. Using a nested for loop we can loop through each character<sup>3</sup> in the file and increment ***count*** each time "e" or "E" occurs.
+6. Finally, the number of "e" or "E"s is printed. 
+
+**References** - 
+1. <a href="https://www.youtube.com/watch?v=aMcAREDvDEo&ab_channel=ChrisHawkes" target="_blank">How to take the filename from an argument on the command line</a>
+2. <a href="https://www.w3schools.com/python/python_file_handling.asp" target="_blank">Opening file</a>
+3. <a href="https://www.kite.com/python/answers/how-to-read-a-file-character-by-character-in-python" target="_blank">Checks each character in file</a>
+
+## Problem 7 - Plot task ###
+---
+**Description** - The program displays a plot of three functions with the range [0,4]: 
+
+f(x) = x
+g(x)=$\mathregular{x^2}$
+h(x)=$\mathregular{x^3}$
+
+**How the program works** - 
+1. Firstly, the program gets the x-points to plot - using np.arrange we can get the points between 0-4 incremented by 0.1 for accuracy<sup>1</sup>. This is inputed into a numpy array. 
+2. We can then calculate or y-points based off our x-points for each of the three functions f(x), g(x) and h(x). 
+3. We can then plot the fuctions using ***plt.plot()*** giving each function a different colour and labeling them.
+4. ***plt.legend()*** shows the fuction labels and colour to distinguish between them<sup>4</sup>.
+5. I added "Functions" as the title of the plot along with labeling the x and y axis. 
+6. plt.xticks and plt.yticks were used to get the correct x and y axis label increments i.e on the x axis I wanted 0, 1, 2, 3, 4 to be shown and on the y axis 0 - 70 with increments of 10.<sup>3</sup>
+7. ***plt.grid()*** puts grid lines on the plot. 
+8. Finally, 4. ***plt.show()*** shows the plot we created. 
+
+**References** - 
+1. <a href="https://pynative.com/python-range-for-float-numbers/" target="_blank">Used to get more x-points</a>
+2. <a href="https://www.w3schools.com/python/matplotlib_labels.asp" target="_blank">Design of plot</a>
+3. <a href="https://stackabuse.com/how-to-set-axis-range-xlim-ylim-in-matplotlib/" target="_blank">Design of plot (Axis labels)</a>
+4. <a href="https://stackoverflow.com/questions/21226868/superscript-in-python-plots" target="_blank">Power of formating</a>
 
 ### README References ###
 Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr
