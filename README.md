@@ -135,8 +135,8 @@ Subbing into the gerneral formula we get: <br/>
 ---
 **Description** - The program displays a plot of three functions with the range [0,4]: 
 
-f(x) = x
-g(x)= x<sup>2</sup>
+f(x) = x\n
+g(x)= x<sup>2</sup>\n
 h(x)= x<sup>3</sup>
 
 **How the program works** - 
