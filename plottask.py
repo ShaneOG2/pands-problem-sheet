@@ -31,7 +31,8 @@ plt.grid() # Places grid lines on plot
 
 plt.show()
 
-# Reference = https://pynative.com/python-range-for-float-numbers/ - Used to get more points for x-axis
+# References
+# https://pynative.com/python-range-for-float-numbers/ - Used to get more points for x-axis
 # https://www.w3schools.com/python/matplotlib_labels.asp - Design of plot  
 # https://stackabuse.com/how-to-set-axis-range-xlim-ylim-in-matplotlib/ - Design of plot (Axis labels)
 # https://stackoverflow.com/questions/21226868/superscript-in-python-plots - Power of formating

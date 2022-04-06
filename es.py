@@ -1,4 +1,5 @@
 # Write a program that reads in a text file and outputs the number of e's it contains. 
+# Shane O'Gorman 
 
 # I'm assuming the file I want is in the same folder as my program
 import sys

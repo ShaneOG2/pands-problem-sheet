@@ -1,7 +1,7 @@
 ![Heading image](img/Shane_O'Gorman's_pands-problem-sheet.png)
 
 ## Overview ##
-This respository contains my work for the 8 Pand-Problems given for Programming and Scripting. I have outlined below ... 
+This respository contains my work for the Pand-Problems given for Programming and Scripting course. I have outlined below each problem with a brief description, how the program works and the references I used to when writing the program. 
 
 
 ### Problem 1 - Body Mass Index (BMI) ###
@@ -12,7 +12,7 @@ This respository contains my work for the 8 Pand-Problems given for Programming 
 1. The program begins by asking the user to input the weight (kg) and then height (cm). 
 2. Both inputs are stored as int variables, ***w_kg*** and ***h_cm*** respectively. 
 3. The formala for BMI<sup>1</sup> is: **weight (kg) / (height (m))<sup>2</sup>**. This was calculated and stored as ***bmi***. 
-4. Given the inputed height was in cm, ***h_cm*** was divided by 100 in the calculation of ***bmi*** to convert to m.
+4. Given the inputed height was in cm, ***h_cm*** was divided by 100 in the calculation of ***bmi*** to convert to meters.
 5. The round function<sup>2</sup> was used to round ***bmi*** to 2 decimal places. 
 6. Next, I decided to add a bit more to the program and give the user an indication<sup>3</sup> whether the BMI they got was underweight, normal, overweight, obese or extremly obese.
 7. This was acheived using if/else statements<sup>4</sup> and Comparison Operators<sup>5</sup>.
@@ -72,12 +72,12 @@ At each step calculate the next value by taking the current value and:
 
 ### Problem 4 - Weekday ###
 ---
-**Description** - The program outputs whether today is a weekday or not.  
+**Description** - The program outputs what day it is and whether it is a weekday or not.  
 
 **How the program works** - 
-1. The program begins by setting the variable ***today*** to the day of the week it is. ***datetime.today().weekday()*** returns -6 i.e. Monday-Sunday where 1 is Monday, 2 is Tuesday etc.<sup>1/2</sup>
-2. I then created a tuple ***daysOfWeek*** with the days of week beginning with Monday and ending in Sunday. 
-3. Using the tuple ***daysOfWeek*** and varible ***today***, the program could then print what day of the week it is.<sup>3</sup>
+1. The program begins by setting the variable ***today*** to the day of the week it is. ***datetime.today().weekday()*** returns 0-6 i.e. Monday-Sunday where 0 is Monday, 1 is Tuesday etc.<sup>1/2</sup>
+2. I then created a tuple ***daysOfWeek*** with the days of week beginning with Monday and ending in Sunday.<sup>3</sup> 
+3. Using the tuple ***daysOfWeek*** and varible ***today***, the program could then print what day of the week it is.
 4. An if/else statement was used to determine if ***today*** was a weekday or a weekend.  
 
 **References** - 
@@ -108,7 +108,7 @@ Subbing into the gerneral formula we get: <br/>
 4. A while loop is repeated while ***diff*** is greater than ***error***. 
 5. ***newGuess*** is calculated by applying Newton's Method. 
 6. ***Diff*** is reset to the absolute differece of our first guess and new guess. 
-7. ***guess*** is set to ***neGuess*** and the loop is repeated until we achieve a square root that is less than the ***error*** we specified. 
+7. ***guess*** is set to ***newGuess*** and the loop is repeated until we achieve a square root that is less than the ***error*** we specified. 
 
 **References** - 
 1. <a href="https://en.wikipedia.org/wiki/Newton%27s_method" target="_blank">Newton's Method</a>
@@ -136,8 +136,8 @@ Subbing into the gerneral formula we get: <br/>
 **Description** - The program displays a plot of three functions with the range [0,4]: 
 
 f(x) = x
-g(x)=$\mathregular{x^2}$
-h(x)=$\mathregular{x^3}$
+g(x)= x<sup>2</sup>
+h(x)= x<sup>3</sup>
 
 **How the program works** - 
 1. Firstly, the program gets the x-points to plot - using np.arrange we can get the points between 0-4 incremented by 0.1 for accuracy<sup>1</sup>. This is inputed into a numpy array. 
@@ -156,8 +156,7 @@ h(x)=$\mathregular{x^3}$
 4. <a href="https://stackoverflow.com/questions/21226868/superscript-in-python-plots" target="_blank">Power of formating</a>
 
 ### README References ###
-Ideas for README: https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr
-https://www.youtube.com/watch?v=a8CwpGARAsQ&ab_channel=Mr.RandomGenerator
-Banner Maker: https://banner.godori.dev
-Markdown cheat sheet: https://www.markdownguide.org/basic-syntax/#blockquotes-1
-
+1. <a href="https://www.youtube.com/watch?v=ECuqb5Tv9qI&t=158s&ab_channel=codeSTACKr" target="_blank">Ideas for README 1</a>
+2. <a href="https://www.youtube.com/watch?v=a8CwpGARAsQ&ab_channel=Mr.RandomGenerator" target="_blank">Ideas for README 2</a>
+3. <a href="https://banner.godori.dev/" target="_blank">Banner Maker</a>
+3. <a href="https://www.markdownguide.org/basic-syntax/#blockquotes-1" target="_blank">Markdown Cheat Sheet</a>

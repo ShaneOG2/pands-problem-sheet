@@ -2,7 +2,7 @@
 # Author: Shane O'Gorman
 
 from datetime import datetime 
-today = datetime.today().weekday() # Returns 0-6 i.e. Monday-Sunday where 1 is Monday, 2 is Tuesday etc. 
+today = datetime.today().weekday() # Returns 0-6 i.e. Monday-Sunday where 0 is Monday, 1 is Tuesday etc. 
 
 # I made a tuple with the days of the week so I could print what day it is
 daysOfWeek = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday") 
