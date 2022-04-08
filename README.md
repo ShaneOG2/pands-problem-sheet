@@ -1,7 +1,7 @@
 ![Heading image](img/Shane_O'Gorman's_pands-problem-sheet.png)
 
 ## Overview ##
-This respository contains my work for the Pand-Problems given for Programming and Scripting course. I have outlined below each problem with a brief description, how the program works and the references I used to when writing the program. 
+This repository contains my work for the Pand-Problems given for Programming and Scripting course. I have outlined below each problem with a brief description, how the program works and the references I used to when writing the program. 
 
 
 ### Problem 1 - Body Mass Index (BMI) ###
@@ -131,7 +131,7 @@ Subbing into the gerneral formula we get: <br/>
 2. <a href="https://www.w3schools.com/python/python_file_handling.asp" target="_blank">Opening file</a>
 3. <a href="https://www.kite.com/python/answers/how-to-read-a-file-character-by-character-in-python" target="_blank">Checks each character in file</a>
 
-## Problem 7 - Plot task ###
+### Problem 7 - Plot task ###
 ---
 **Description** - The program displays a plot of three functions with the range [0,4]: 
 
